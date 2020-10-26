@@ -49,6 +49,7 @@ c = defaultdict(int)
 for i in range(1000000):
     c[toss_fair()] += 1
 print(c)
-defaultdict(< class 'int'>, {False: 500104, True: 499896})
+
+# defaultdict(< class 'int'>, {False: 500104, True: 499896})
 # Because there's a possibility that we always roll the same two values, 
 # there is a possibility that this function never terminates.
